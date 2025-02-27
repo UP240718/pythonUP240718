@@ -78,37 +78,41 @@ len_dragon = len("dragon")
 print(f"la longitud de python es {len_python}, la longitud de dragon es {len_dragon}")
 print(f"¿python es mas largo que dragon? {len_python > len_dragon}") #esto es falso
 
-# 13
-print('on' in 'python' and 'on' in 'dragon')
+# paso 13
+print('on' in 'python' and 'on' in 'dragon')  # Verifica si "on" está en ambas palabras
 
-# 14
-print('jargon' in "I hope this course is not full of jargon")
+# paso 14
+print('jargon' in "Espero que este curso no esté lleno de jerga")  # "jargon" significa "jerga"
 
-# 15
-print('on' not in 'python' and 'on' in 'dragon')
+# paso 15
+print('on' not in 'python' and 'on' in 'dragon')  
 
 # 16
-print(str(float(len('python'))))
+print(str(float(len('python'))))  # Convierte la longitud de "python" a flotante y luego a cadena
 
-# 18
-number = int(input('Enter number:'))
-print("Even" if number % 2 == 0 else "Odd")
+# 17
+numero = int(input('Ingresa un número:'))  
+print("Par" if numero % 2 == 0 else "Impar")  # Determina si el número es par o impar
+
+#18
+value=int(2.7)
+print(7//3 == value)
 
 # 19
-print(type('10') == type(10))
+print(type('10') == type(10))  
 
 # 20
-print(int('9.8') == 10)
+print(int(9.8) == 10)  # Convierte 9.8 a entero y compara con 10
 
 # 21
-hours = int(input('Enter hours:'))
-rph = int(input('Enter rate per hour:'))
-print("Weekly Earning:", hours * rph)
+horas = int(input('Ingresa las horas:'))  
+tasa_por_hora = int(input('Ingresa la tarifa por hora:'))  
+print("Ganancia semanal:", horas * tasa_por_hora)  # Calcula la ganancia semanal
 
 # 22
-years = int(input('Enter years:'))
-print(years * 365 * 24 * 60 * 60 * 60)
+años = int(input('Ingresa años:'))  
+print(años * 365 * 24 * 60 * 60) 
 
 # 23
-for i in range(1, 6):
-    print(i, i ** 0, i ** 1, i ** 2, i ** 3)
+for i in range(1, 6):  
+    print(i, i ** 0, i ** 1, i ** 2, i ** 3)  
