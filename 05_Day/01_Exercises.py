@@ -15,7 +15,7 @@ print("primer elemento:", list_length)
 print("elemento del medio", middle_item)
 print("ultimo elemento", last_item)
 #5
-mixed_data_types = ["TuNombre", 25, 1.75, "Soltero", "Tu Dirección"]
+mixed_data_types = ["Brian", 25, 1.75, "Soltero", "monaco 120"]
 print("Lista de datos mixtos:", mixed_data_types)
 
 #6
